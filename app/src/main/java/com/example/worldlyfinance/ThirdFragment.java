@@ -28,6 +28,7 @@ public class ThirdFragment extends Fragment {
         final Spinner mySpinner2 = (Spinner)getView().findViewById(R.id.spinner2);
         final EditText numInput = (EditText)getView().findViewById(R.id.input);
         final TextView tview = (TextView)getView().findViewById(R.id.output);
+        numInput.setText("0");
         final TextView fdback = (TextView)getView().findViewById(R.id.feedback);
         tview.setText(Double.toString(generateRandom()));
         view.findViewById(R.id.convert).setOnClickListener(new View.OnClickListener() {

@@ -18,23 +18,25 @@
 
     <style name="p">
         <item name="android:textSize">
-            18sp
+            26sp
+        </item>
+        <item name="android:fontFamily">
+            sans-serif-condensed
         </item>
     </style>
-    <style name="topics">
+
+    <style name="button">
         <item name="android:textSize">
-            36sp
+            48sp
         </item>
         <item name="android:textColor">
             @color/colorPrimaryDark
         </item>
-    </style>
-    <style name="title">
-        <item name="android:textSize">
-            36sp
+        <item name="android:height">
+            300dp
         </item>
-        <item name="android:textColor">
-            @color/colorAccent
+        <item name="android:fontFamily">
+            sans-serif-condensed
         </item>
     </style>
 

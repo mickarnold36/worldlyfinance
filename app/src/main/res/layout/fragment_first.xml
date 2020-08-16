@@ -14,36 +14,39 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:text="Convert Currencies"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHighlight="#FF362E11"
+        android:textAppearance="@style/button"
         app:layout_constraintBottom_toTopOf="@+id/count"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorAccent"/>
 
     <Button
         android:id="@+id/count"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="48dp"
         android:text="Practice Counting"
-        android:textColor="@color/colorPrimary"
+        android:textAppearance="@style/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorAccent"/>
 
     <TextView
         android:id="@+id/select_a_ca"
-        android:layout_width="300dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
         android:gravity="top"
         android:text="@string/select_a_ca"
         android:textAppearance="@style/p"
         app:layout_constraintBottom_toTopOf="@+id/convert"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 
